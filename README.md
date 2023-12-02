@@ -2,6 +2,8 @@
 
 ![413113000 2023-11-29](https://github.com/saffa19/shippy/assets/31897351/f8b1dd19-90e7-47cf-9380-82a9a31cfbc6)
 
+plotting is fun but should write coords to .shp file for better mapping in browser
+
 ## data
 
 https://www.naturalearthdata.com/downloads/10m-physical-vectors/
