@@ -8,7 +8,7 @@ comething like
 ```path = LineString(coords)
 d = {'col1': ['shipID'], 'geometry': [path]}
 df = gpd.GeoDataFrame(d, crs="")
-df.to_file('/home/bera/GIS/Data/testdata/shippies.shp')
+df.to_file('./shippies.shp')
 ```
 
 ## data
