@@ -1,15 +1,12 @@
 # shippy
 
+Uses AIS data to track ships within a certain zone. Aim is to build a cool dashboard or something
+
 ![413113000 2023-11-29](https://github.com/saffa19/shippy/assets/31897351/f8b1dd19-90e7-47cf-9380-82a9a31cfbc6)
 
-plotting is fun but should write coords to .shp file for better mapping in browser
+export [AIS Stream](https://aisstream.io/) API key to env
 
-comething like
-```path = LineString(coords)
-d = {'col1': ['shipID'], 'geometry': [path]}
-df = gpd.GeoDataFrame(d, crs="")
-df.to_file('./shippies.shp')
-```
+`export AISSTREAM='valid_key'`
 
 ## data
 
