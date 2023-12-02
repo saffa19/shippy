@@ -4,6 +4,13 @@
 
 plotting is fun but should write coords to .shp file for better mapping in browser
 
+comething like
+```path = LineString(coords)
+d = {'col1': ['shipID'], 'geometry': [path]}
+df = gpd.GeoDataFrame(d, crs="")
+df.to_file('/home/bera/GIS/Data/testdata/shippies.shp')
+```
+
 ## data
 
 https://www.naturalearthdata.com/downloads/10m-physical-vectors/
