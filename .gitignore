@@ -1,3 +1,4 @@
 /images/*
 /tracking/*
 /shapefiles/*
+.vscode/launch.json
