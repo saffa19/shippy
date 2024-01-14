@@ -108,11 +108,9 @@ async def connect_ais_stream():
             else:
                 print(f'[{datetime.now()}] Message Type: {message_type}')
                 #print(message)
+    
 
-def main():
+if __name__ == '__shippy__':
     loop = asyncio.get_event_loop()
     loop.run_until_complete(connect_ais_stream())
     loop.close()
-
-if __name__ == '__main__':
-    main()
